@@ -1,0 +1,294 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    list-style: none;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.defolt_width {
+    max-width: 1480px;
+    margin: 0 auto;
+    padding: 8px 20px;
+}
+
+.left {
+    display: flex;
+}
+
+.wrap {
+    margin-left: 14px;
+}
+
+.wrap h1 {
+    font-weight: 800;
+    font-size: 39px;
+    line-height: 47px;
+    color: #231F20;
+    font-family: Panton;
+}
+
+.wrap p {
+    font-weight: 600;
+    font-size: 9.3px;
+    line-height: 11px;
+    color: #231F20;
+}
+
+main p {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.bef::before {
+    content: '';
+    background: #FF2E65;
+    width: 4px;
+    height: 4px;
+    position: relative;
+    border-radius: 10px;
+}
+
+main p span {
+    color: #FF2E65;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 7px;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+}
+
+.order {
+    background: #F3F3F7;
+    border-radius: 28px;
+    color: #696F7A;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 7px 27px;
+    line-height: 28px;
+}
+
+.right p {
+    font-weight: bold;
+    font-size: 26px;
+    color: #FF2E65;
+    line-height: 32px;
+    margin-left: 28px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline
+}
+
+.left_nav ul {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    transition: 0.2s;
+}
+
+.left_nav ul li {
+    list-style: none;
+    transition: 0.2s;
+}
+
+.left_nav ul li:hover {
+    color: #FF2E65;
+}
+
+.left_nav {
+    width: 807px;
+}
+
+.right_nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.back {
+    font-weight: 600;
+    font-size: 16px;
+    background: #FF2E65;
+    border-radius: 8px;
+    margin-left: 30px;
+    color: white;
+    align-items: center;
+    display: flex;
+}
+
+.back svg {
+    margin-left: 11px;
+    margin-right: 14px;
+}
+
+.right_nav {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 28px;
+    color: #696F7A;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+}
+
+.center img:nth-child(1) {
+    height: 457px;
+}
+
+.center img:nth-child(2) {
+    width: 1490px;
+}
+
+.center img:nth-child(3) {
+    height: 457px;
+}
+
+.tepe {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 49px;
+    margin-bottom: 27px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom img {
+    width: 97px;
+    height: 98px;
+}
+
+.bot-bot ul {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #9D9D9B;
+    margin-top: 10px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    margin-bottom: 55px;
+}
+
+.karbonara {
+    display: flex;
+    align-items: center;
+    padding: 14px 17px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.06);
+    border-radius: 12px;
+}
+
+.raight_kar p {
+    color: #FF2E65;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.raight_kar {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 25px;
+    flex-direction: column;
+}
+
+.greed {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+    margin: 0 auto;
+    grid-gap: 30px;
+}
+
+.perpel {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    color: #FF2E65;
+    margin-top: 51px;
+    margin-bottom: 26px;
+}
+
+.pizza {
+    width: 256px;
+}
+
+.pizza h1 {
+    margin-top: 4px;
+    margin-bottom: 18px;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 28px;
+    color: #0E0C0D;
+}
+
+.pizza span {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19px;
+    color: #686466;
+}
+
+.black {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 19px;
+    color: #231F20;
+}
+
+.flex {
+    margin-top: 31px;
+    display: flex;
+    align-items: center;
+}
+
+.go {
+    padding: 4px 24px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 28px;
+    border-radius: 23px;
+}
+
+.raight_kar span {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+
+}

@@ -1,0 +1,198 @@
+@font-face {
+    font-family: 'Panton';
+    src: url('Panton-ExtraBold.eot');
+    src: local('Panton ExtraBold'), local('Panton-ExtraBold'),
+        url('Panton-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('Panton-ExtraBold.woff') format('woff'),
+        url('Panton-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Panton';
+    src: url('Panton-RegularItalic.eot');
+    src: local('Panton Regular Italic'), local('Panton-RegularItalic'),
+        url('Panton-RegularItalic.eot?#iefix') format('embedded-opentype'),
+        url('Panton-RegularItalic.woff') format('woff'),
+        url('Panton-RegularItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Panton';
+    src: url('Panton-ThinItalic.eot');
+    src: local('Panton Thin Italic'), local('Panton-ThinItalic'),
+        url('Panton-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('Panton-ThinItalic.woff') format('woff'),
+        url('Panton-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Panton';
+    src: url('Panton-Bold.eot');
+    src: local('Panton Bold'), local('Panton-Bold'),
+        url('Panton-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Panton-Bold.woff') format('woff'),
+        url('Panton-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Panton';
+    src: url('Panton-ExtraLight.eot');
+    src: local('Panton ExtraLight'), local('Panton-ExtraLight'),
+        url('Panton-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('Panton-ExtraLight.woff') format('woff'),
+        url('Panton-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Panton';
+    src: url('Panton-ExtraBoldItalic.eot');
+    src: local('Panton ExtraBold Italic'), local('Panton-ExtraBoldItalic'),
+        url('Panton-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Panton-ExtraBoldItalic.woff') format('woff'),
+        url('Panton-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Panton';
+    src: url('Panton-ExtraLightItalic.eot');
+    src: local('Panton ExtraLight Italic'), local('Panton-ExtraLightItalic'),
+        url('Panton-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('Panton-ExtraLightItalic.woff') format('woff'),
+        url('Panton-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Panton';
+    src: url('Panton-Thin.eot');
+    src: local('Panton Thin'), local('Panton-Thin'),
+        url('Panton-Thin.eot?#iefix') format('embedded-opentype'),
+        url('Panton-Thin.woff') format('woff'),
+        url('Panton-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Panton';
+    src: url('Panton-SemiBold.eot');
+    src: local('Panton SemiBold'), local('Panton-SemiBold'),
+        url('Panton-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Panton-SemiBold.woff') format('woff'),
+        url('Panton-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Panton';
+    src: url('Panton-Heavy.eot');
+    src: local('Panton Heavy'), local('Panton-Heavy'),
+        url('Panton-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('Panton-Heavy.woff') format('woff'),
+        url('Panton-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Panton';
+    src: url('Panton-SemiBoldItalic.eot');
+    src: local('Panton SemiBold Italic'), local('Panton-SemiBoldItalic'),
+        url('Panton-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Panton-SemiBoldItalic.woff') format('woff'),
+        url('Panton-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Panton';
+    src: url('Panton-BoldItalic.eot');
+    src: local('Panton Bold Italic'), local('Panton-BoldItalic'),
+        url('Panton-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Panton-BoldItalic.woff') format('woff'),
+        url('Panton-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Panton';
+    src: url('Panton-BlackItalic.eot');
+    src: local('Panton Black Italic'), local('Panton-BlackItalic'),
+        url('Panton-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('Panton-BlackItalic.woff') format('woff'),
+        url('Panton-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Panton';
+    src: url('Panton-LightItalic.eot');
+    src: local('Panton Light Italic'), local('Panton-LightItalic'),
+        url('Panton-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('Panton-LightItalic.woff') format('woff'),
+        url('Panton-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Panton';
+    src: url('Panton-Regular.eot');
+    src: local('Panton Regular'), local('Panton-Regular'),
+        url('Panton-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Panton-Regular.woff') format('woff'),
+        url('Panton-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Panton';
+    src: url('Panton-HeavyItalic.eot');
+    src: local('Panton Heavy Italic'), local('Panton-HeavyItalic'),
+        url('Panton-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+        url('Panton-HeavyItalic.woff') format('woff'),
+        url('Panton-HeavyItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Panton';
+    src: url('Panton-Light.eot');
+    src: local('Panton Light'), local('Panton-Light'),
+        url('Panton-Light.eot?#iefix') format('embedded-opentype'),
+        url('Panton-Light.woff') format('woff'),
+        url('Panton-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Panton';
+    src: url('Panton-Black.eot');
+    src: local('Panton Black'), local('Panton-Black'),
+        url('Panton-Black.eot?#iefix') format('embedded-opentype'),
+        url('Panton-Black.woff') format('woff'),
+        url('Panton-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
