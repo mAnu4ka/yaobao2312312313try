@@ -58,15 +58,6 @@ main {
     flex-direction: column;
 }
 
-.bef::before {
-    content: '';
-    background: #FF2E65;
-    width: 4px;
-    height: 4px;
-    position: relative;
-    border-radius: 10px;
-}
-
 main p span {
     color: #FF2E65;
     font-style: normal;
@@ -90,7 +81,7 @@ main p span {
     line-height: 28px;
 }
 
-.right p {
+.perpell {
     font-weight: bold;
     font-size: 26px;
     color: #FF2E65;
@@ -273,7 +264,6 @@ footer {
 }
 
 .flex {
-    margin-top: 31px;
     display: flex;
     align-items: center;
 }
@@ -379,55 +369,12 @@ center button {
     margin-bottom: 32px;
 }
 
-.bef4::before {
-    content: '';
-    position: absolute;
-    width: 77px;
-    height: 77px;
-    left: 325px;
-    top: 4448px;
-    background: #FFFFFF;
-    border-radius: 57px;
-}
-
 .market svg {
     position: relative;
     top: -32px;
     left: 4px;
 }
 
-.bef3::before {
-    content: '';
-    position: absolute;
-    width: 77px;
-    left: 692px;
-    height: 77px;
-    top: 4448px;
-    background: #FFFFFF;
-    border-radius: 57px;
-}
-
-.bef2::before {
-    content: '';
-    position: absolute;
-    width: 77px;
-    height: 77px;
-    left: 1061px;
-    top: 4448px;
-    background: #FFFFFF;
-    border-radius: 57px;
-}
-
-.bef::before {
-    content: '';
-    position: absolute;
-    width: 77px;
-    height: 77px;
-    left: 1426px;
-    top: 4448px;
-    background: #FFFFFF;
-    border-radius: 57px;
-}
 
 .impp {
     width: 1364px;
@@ -482,4 +429,93 @@ center button {
     color: #0E0C0D;
     opacity: 0.8;
     margin-right: 171px;
+}
+
+.raight {
+    margin-top: 56px;
+    margin-bottom: 39px;
+    width: 414px;
+}
+
+.camuni {
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    border: 2px solid #E3ECF5;
+    box-sizing: border-box;
+    border-radius: 13px;
+    width: 100%;
+    align-items: center;
+}
+
+.nth {
+    grid-auto-rows: 52px;
+    grid-gap: 14px;
+    grid-template-columns: repeat(auto-fit, minmax(81px, 1fr));
+}
+
+.item img {
+    height: 30px;
+    width: 30px;
+}
+
+.item:nth-child(7) {
+    grid-column: 3/5;
+}
+
+.ll {
+    margin-left: 0px;
+    margin-top: 47px;
+    margin-bottom: 19px;
+}
+
+.question {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #0E0C0D;
+    margin-bottom: 36px;
+    text-transform: uppercase;
+}
+
+.left_ques {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.r {
+    width: 180px;
+}
+
+.end_end {}
+
+.raight_question {
+    position: absolute;
+}
+
+.raight_question img {
+    position: relative;
+    left: 100%;
+}
+
+.bef {
+    position: absolute;
+}
+
+.krug {
+    position: relative;
+    top: -47px;
+    left: 2px;
+    background: #FFFFFF;
+    border-radius: 100%;
+    Width: 77px;
+    Height: 77px;
+}
+
+.osd img {
+    margin-right: 18px;
 }
